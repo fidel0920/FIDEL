@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    background: #040125;
+    color: #fff;
+}
+/*MENU*/
+.navbar{
+    background: #ffffff2f;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.navbar header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.navbar header .logo a{
+    font-size: 36px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar header ul{
+    display: flex;
+    list-style: none;
+}
+.navbar header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+}
+/*INICIO*/
+.inicio{
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.init{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*SOBRE MI*/
+.nav-me{
+    display: flex;
+}
+.nav-me li{
+    list-style: none;
+    margin: 50px;
+}
+.nav-me li h2{
+    text-align: center;
+}
+/*PROYECTOS*/
+/*CONTACTO*/
